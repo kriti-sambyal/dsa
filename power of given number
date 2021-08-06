@@ -1,0 +1,17 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    int a,b,c=1,i;
+    cout<<"enter a number and power to be calculated";
+    cin>>a>>b;
+    for(i=1;i<=b;i++)
+    {
+      c=c*a;
+    }
+    
+cout<<" \n "<<c;
+    return 0;
+}
