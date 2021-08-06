@@ -1,0 +1,21 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char i,j;
+    for(i=65;i<=90;i++)
+    {
+        cout<<" "<<i;
+    }
+    cout<<"\n\n";
+    
+    for(j=97;j<=122;j++)
+    {
+    cout<<" "<<j;
+    }
+    return 0;
+}
