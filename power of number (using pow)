@@ -1,0 +1,15 @@
+
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    int a,b,c=1,i;
+    cout<<"enter a number and power to be calculated";
+    cin>>a>>b;
+    
+    c=pow(a,b);
+    cout<<" \n "<<c;
+    return 0;
+}
