@@ -1,0 +1,29 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    int i,a,c,d,count,fd,k,y,x,newnum;
+    cout<<"enter a number  ";
+    cin>>a;
+    k=a;
+    c=a%10;
+    while(a!=0)
+    {
+        d=a%10;
+        a=(a/10);
+        count++;
+    }
+    cout<<"last digit  "<<c;
+    cout<<"\nfirst digit  "<<d;
+    cout<<"\ncount  "<<count;
+    
+    fd=c*(pow(10,count-1));
+    newnum=fd+d;
+    x=k-(d*(pow(10,count-1)));
+    y=x-c;
+    newnum=newnum+y;
+    cout<<"\nnew number  "<<newnum;
+    return 0;
+}
