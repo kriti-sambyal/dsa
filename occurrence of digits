@@ -1,0 +1,79 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num,i=0,b,j=0,l=0,k=0,m=0,n=0,o=0,p=0,q=0;
+    cout<<"enter a number\n";
+    cin>>num;
+    while(num!=0)
+    {
+        b=num%10;
+        num=num/10;
+       
+        switch(b){
+            
+        case 1:
+        if(b==1)
+        l++;
+        cout<<"\noccourance of 1 "<<l;
+        break;
+        
+        case 2:
+        if(b==2)
+        i++;
+        cout<<"\noccourance of 2 "<<i;
+        break;
+        
+        case 3:
+        if(b==3)
+        j++;
+        cout<<"\noccourance of 3 "<<j;
+        break;
+        
+        case 4:
+        if(b==4)
+        k++;
+        cout<<"\noccourance of 4 "<<k;
+        break;
+        
+        case 5:
+        if(b==5)
+        m++;
+        cout<<"\noccourance of 5 "<<m;
+        break;
+        
+        case 6:
+        if(b==6)
+        n++;
+        cout<<"\noccourance of 6 "<<n;
+        break;
+        
+        case 7:
+        if(b==7)
+        o++;
+        cout<<"\noccourance of 7 "<<o;
+        break;
+        
+        case 8:
+        if(b==8)
+        p++;
+        cout<<"\noccourance of 8 "<<p;
+        break;
+
+        case 9:
+        if(b==9)
+        q++;
+        cout<<"\noccourance of 9 "<<q;
+        break;
+        
+        }
+        
+        
+    }
+    
+    return 0;
+}
