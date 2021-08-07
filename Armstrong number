@@ -1,0 +1,31 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,c=1,sum=0,k,b;
+    cout<<"enter a num to find if it is armstrong or not - ";
+    cin>>a;
+    
+    k=a;
+    
+    while(a!=0)
+    {
+    b=a%10;
+    c=b*b*b;
+    sum=sum+c;
+    a=a/10;
+    }
+    
+    if (k==sum)
+    cout<<"it is armstrong number = "<<sum;
+    
+    else
+    cout<<"it is not a armstrong number = "<<sum;
+    
+
+    return 0;
+}
